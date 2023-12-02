@@ -1,0 +1,129 @@
+.endbtn:hover{
+    background-color: blue !important;
+
+    transition: all 0.3s ease-in-out !important;
+    color: white;
+
+}
+
+.toc{
+    margin-left: auto !important;
+    display: block !important;
+    width:100% !important;
+}
+
+
+li:hover
+{
+    color: red !important;
+}
+
+
+
+@media (max-width: 600px) {
+    .row.hhhhhh {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row.hhhhhh [class*="col-"] {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .adjustheight {
+        height: 300px !important; /* Avoid using !important if possible */
+    }
+
+    .adjustpadding {
+        padding-top: 100px !important; /* Avoid using !important if possible */
+    }
+    .tocolumn{
+        flex-direction: column !important;
+    }
+}
+
+
+
+
+
+.event-grid-img2 {
+    position: relative !important;
+    overflow: hidden !important;
+    /* Add any other necessary styles for the non-hover state */
+}
+
+.hover-effect {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.event-grid-img2:hover  {
+    transform: rotate(2deg);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);    opacity: 0.8; /* Adjust the opacity as needed */
+}
+
+
+.zoom span,p{
+
+    font-size: 15px;
+}
+.event-grid-info2 > p{
+    line-height: 2.75rem;
+}
+
+
+
+.event-grid-info2 > span {
+    color: #999;
+    font-family: Barlow;
+    font-size: large;
+  transform: scale(1);
+}
+.event-grid-box2.list-view .event-grid-img2 {
+
+    height: 100% !important;
+}
+
+
+
+
+
+.changewidth{
+    width: 400px !important;
+}
+
+.zoom3 h3 a{
+
+font-size: 37px !important;
+color: #2E285A !important;
+
+}
+
+.zoom3 p{
+    font-size: 16px;
+    line-height: 3rem;
+    color: #976766;
+    font-weight: 300;
+}
+
+.fa-globe{
+    font-size: 20px;
+}
+
+.changingfont>li {
+    font-family: Roboto;
+    color: #666766;
+    font-size: 1.4rem !important;
+    line-height: 1.875rem;
+}
